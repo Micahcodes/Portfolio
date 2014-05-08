@@ -148,6 +148,10 @@ a:focus,
   -webkit-transition: none;
   -moz-transition: none;
   transition: none;
+  a {
+    color:#fff;
+    text-decoration: none;
+  }
 }
 
 .btn-meflat:hover,
@@ -611,9 +615,9 @@ a:focus,
 }
 
 #about img{
-    margin-bottom:40px;
-  border:15px solid transparent;
-  box-shadow:5px 3px 0 rgba(255,255,255,.6);
+  margin-bottom:40px;
+  border: 10px solid transparent;
+  box-shadow:5px 3px 10px rgba(255,255,255,.6);
 }
 
 #about p{
@@ -666,10 +670,17 @@ a:focus,
 ------------------------*/
 #contact{
     padding-bottom:40px;
+    background: #36D9C3;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 0.02em;
 }
 
 #contact .section-header p {
-    opacity:0.6;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  font-size: 1.2em;
+  color: white;
 }
 
     .bl_form {
@@ -726,13 +737,6 @@ a:focus,
     margin-left:3px;
 }
 
-#contact-form .field-wrap{
-    display:inline-block;
-    position:relative;
-    vertical-align:top;
-    margin-bottom:60px;
-}
-
 #contact-form .field-wrap .error-message{
     display:block;
     position:absolute;
@@ -754,19 +758,6 @@ a:focus,
 #contact-form.no-placeholder .field-wrap .control-label{
     display:inline-block;
 }
-/*----------------------
------Footer Styles------
-------------------------*/
-
-#main-footer p{
-    font-size:16px;
-    line-height:40px;
-}
-
-#main-footer hr{
-    margin-top:0;
-    border-color:#19191d;
-}
 
 .social-links {
     list-style:none;
@@ -786,13 +777,11 @@ a:focus,
 .social-links li a {
     display:block;
     color:#fff;
-    color:rgba(255,255,255,0.3);
     font-size:18px;
     width:50px;
     height:50px;
     line-height:50px;
     text-align:center;
-    background:rgba(0,0,0,0.2);
     border-radius:50%;
     -webkit-transition:all .3s ease-out;
     transition:all .3s ease-out;
@@ -804,8 +793,8 @@ a:focus,
 }
 
 .social-links li a:hover {
-    color:#fff;
-    background:#36D9C3;
+    color: #fff;
+    background: #3a3c4a;
 }
 
 /*------------------------

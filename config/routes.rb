@@ -1,5 +1,7 @@
 Portfolio::Application.routes.draw do
     root 'portfolio#index'
+    get "portfolio/download_resume"
+    get "portfolio/download_summary"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
